@@ -1,0 +1,171 @@
+{
+  "checkpoint": "real_robot/training/2026-10-15_15-24-40_mode6_interval_v2/model_599.pt",
+  "seed": 123,
+  "num_envs": 16,
+  "seconds": 60.0,
+  "heading_hold": true,
+  "randomized": false,
+  "warmup": 2.0,
+  "cases": [
+    {
+      "case": "stand",
+      "survivors": 16,
+      "evaluated": 16,
+      "failures": 0,
+      "first_failure_s": null,
+      "mean_velocity": [
+        0.0016216549556702375,
+        -0.006298063322901726,
+        -0.01586427167057991
+      ],
+      "mae": [
+        0.0016542443879583562,
+        0.006298063196686442,
+        0.015864328266671408
+      ],
+      "final_displacement_m": 0.001654026797041297,
+      "max_displacement_m": 0.002273501828312874,
+      "abs_yaw_change_deg": 0.001551563385874033,
+      "mean_tilt_deg": 1.044252872467041,
+      "kinematic_mean_velocity": [
+        -2.5567491320543922e-05,
+        -1.262353271158645e-05,
+        -2.4328772951776045e-07
+      ],
+      "kinematic_mae": [
+        0.00010682424980122391,
+        0.00010124343275950989,
+        0.00010050982156575753
+      ],
+      "deployment_observation_max_abs_error": 0.0
+    },
+    {
+      "case": "forward",
+      "survivors": 16,
+      "evaluated": 16,
+      "failures": 0,
+      "first_failure_s": null,
+      "mean_velocity": [
+        0.4693610370159149,
+        0.011846205219626427,
+        -0.006739672739058733
+      ],
+      "mae": [
+        0.030709631142431294,
+        0.028564278919590548,
+        0.07232252273860283
+      ],
+      "final_displacement_m": 27.091989517211914,
+      "max_displacement_m": 27.09946632385254,
+      "abs_yaw_change_deg": 0.1153305321931839,
+      "mean_tilt_deg": 1.0303198099136353,
+      "kinematic_mean_velocity": [
+        0.46698692440986633,
+        0.010693097487092018,
+        -1.9411405446589924e-05
+      ],
+      "kinematic_mae": [
+        0.03301919928784001,
+        0.039404232543437154,
+        0.013290640883549651
+      ],
+      "deployment_observation_max_abs_error": 0.0
+    },
+    {
+      "case": "lateral",
+      "survivors": 16,
+      "evaluated": 16,
+      "failures": 0,
+      "first_failure_s": null,
+      "mean_velocity": [
+        0.019361699000000954,
+        0.24299801886081696,
+        0.00694940984249115
+      ],
+      "mae": [
+        0.019407783176392943,
+        0.02281644185587507,
+        0.07796614260001365
+      ],
+      "final_displacement_m": 13.98182201385498,
+      "max_displacement_m": 13.995266914367676,
+      "abs_yaw_change_deg": 0.2429073303937912,
+      "mean_tilt_deg": 1.1254292726516724,
+      "kinematic_mean_velocity": [
+        0.015949483960866928,
+        0.2405334711074829,
+        5.2933879487682134e-05
+      ],
+      "kinematic_mae": [
+        0.01620042973191591,
+        0.03533186297446232,
+        0.019064906470261562
+      ],
+      "deployment_observation_max_abs_error": 0.0
+    },
+    {
+      "case": "turn",
+      "survivors": 16,
+      "evaluated": 16,
+      "failures": 0,
+      "first_failure_s": null,
+      "mean_velocity": [
+        0.030070561915636063,
+        -0.00832988228648901,
+        0.4501476287841797
+      ],
+      "mae": [
+        0.03213418313294071,
+        0.031234827511472586,
+        0.07758357828996819
+      ],
+      "final_displacement_m": 0.10435616970062256,
+      "max_displacement_m": 0.12199010699987411,
+      "abs_yaw_change_deg": 1668.7384033203125,
+      "mean_tilt_deg": 0.9169259667396545,
+      "kinematic_mean_velocity": [
+        0.027002891525626183,
+        -0.007887588813900948,
+        0.502151370048523
+      ],
+      "kinematic_mae": [
+        0.027002784152869497,
+        0.03308203204897429,
+        0.020968096382145224
+      ],
+      "deployment_observation_max_abs_error": 0.0
+    },
+    {
+      "case": "transitions",
+      "survivors": 16,
+      "evaluated": 16,
+      "failures": 0,
+      "first_failure_s": null,
+      "mean_velocity": [
+        0.07734961807727814,
+        0.032872121781110764,
+        0.056649379432201385
+      ],
+      "mae": [
+        0.01866715304558058,
+        0.019377833050466035,
+        0.04975015852255146
+      ],
+      "final_displacement_m": 5.3282551765441895,
+      "max_displacement_m": 5.474292278289795,
+      "abs_yaw_change_deg": 286.472900390625,
+      "mean_tilt_deg": 1.2358593940734863,
+      "kinematic_mean_velocity": [
+        0.07472614198923111,
+        0.033539172261953354,
+        0.07352785766124725
+      ],
+      "kinematic_mae": [
+        0.0170815951344361,
+        0.02194310406219628,
+        0.012001322447493508
+      ],
+      "deployment_observation_max_abs_error": 0.0
+    }
+  ]
+}

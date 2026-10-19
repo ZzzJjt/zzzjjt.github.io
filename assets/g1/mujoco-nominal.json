@@ -1,0 +1,365 @@
+{
+  "policy": "real_robot/mode6/candidates/v2_model599.onnx",
+  "model": "mode6/g1_mode6_fixed_fingers.xml",
+  "simulation_only": true,
+  "heading_hold": true,
+  "warmup_s": 2.0,
+  "control_dt": 0.02,
+  "sim_dt": 0.001,
+  "initialization": "Model default pose, yaw sampled uniformly in [-0.1,0.1]; identical per seed across tasks",
+  "cases": [
+    {
+      "seed": 123,
+      "case": "stand",
+      "seconds_requested": 60.0,
+      "first_failure_s": null,
+      "survived": true,
+      "mean_velocity": [
+        -0.00022598076814306137,
+        0.00015954286080232264,
+        0.004814796065468094
+      ],
+      "mae": [
+        0.00025736651899485184,
+        0.0002807908063667451,
+        0.004814796065468094
+      ],
+      "final_displacement_m": 0.016387118057987787,
+      "max_displacement_m": 0.01641441159225495,
+      "abs_yaw_change_deg": 16.099068438009404,
+      "mean_tilt_deg": 0.6282824885879328,
+      "max_tilt_deg": 1.6017504324388832,
+      "startup_displacement_m": 0.0047440908038074376
+    },
+    {
+      "seed": 123,
+      "case": "forward",
+      "seconds_requested": 60.0,
+      "first_failure_s": null,
+      "survived": true,
+      "mean_velocity": [
+        0.4485580533141812,
+        0.02047740467141423,
+        0.002332710249425475
+      ],
+      "mae": [
+        0.051441946685820486,
+        0.03839942392558744,
+        0.07044741199724262
+      ],
+      "final_displacement_m": 25.98352511976778,
+      "max_displacement_m": 25.98352511976778,
+      "abs_yaw_change_deg": 0.4875027015375174,
+      "mean_tilt_deg": 1.1311880269084063,
+      "max_tilt_deg": 2.558191748471406,
+      "startup_displacement_m": 0.76875017824538
+    },
+    {
+      "seed": 123,
+      "case": "lateral",
+      "seconds_requested": 60.0,
+      "first_failure_s": null,
+      "survived": true,
+      "mean_velocity": [
+        0.02256682800877534,
+        0.25821131480950266,
+        -0.006622878596720791
+      ],
+      "mae": [
+        0.023207740768300792,
+        0.032626331082746124,
+        0.05053786838195407
+      ],
+      "final_displacement_m": 15.037942923381971,
+      "max_displacement_m": 15.037942923381971,
+      "abs_yaw_change_deg": 0.610490586155939,
+      "mean_tilt_deg": 1.041972178327836,
+      "max_tilt_deg": 2.675275904774456,
+      "startup_displacement_m": 0.3831115010800206
+    },
+    {
+      "seed": 123,
+      "case": "turn",
+      "seconds_requested": 60.0,
+      "first_failure_s": null,
+      "survived": true,
+      "mean_velocity": [
+        0.016675492188064165,
+        -0.012448572637168429,
+        0.49724024130531835
+      ],
+      "mae": [
+        0.01856484677183101,
+        0.026173229787875937,
+        0.05350577831552857
+      ],
+      "final_displacement_m": 0.07415016343078157,
+      "max_displacement_m": 0.08338456938921707,
+      "abs_yaw_change_deg": 1672.3840176328438,
+      "mean_tilt_deg": 0.8567827732038186,
+      "max_tilt_deg": 2.0912887873161976,
+      "startup_displacement_m": 0.03481304678651371
+    },
+    {
+      "seed": 123,
+      "case": "transitions",
+      "seconds_requested": 70.0,
+      "first_failure_s": null,
+      "survived": true,
+      "mean_velocity": [
+        0.07355330862347817,
+        0.03755760569715794,
+        0.08485748243333342
+      ],
+      "mae": [
+        0.020733612315761707,
+        0.02011837708862989,
+        0.03811397810455535
+      ],
+      "final_displacement_m": 4.745602109784203,
+      "max_displacement_m": 4.825180295777029,
+      "abs_yaw_change_deg": 334.51384197173246,
+      "mean_tilt_deg": 0.963679876561587,
+      "max_tilt_deg": 6.881250725990674,
+      "startup_displacement_m": 0.0047440908038074376
+    },
+    {
+      "seed": 456,
+      "case": "stand",
+      "seconds_requested": 60.0,
+      "first_failure_s": null,
+      "survived": true,
+      "mean_velocity": [
+        -0.00022603197954125322,
+        0.00015943182550488675,
+        0.004816698133489246
+      ],
+      "mae": [
+        0.0002575587996190241,
+        0.0002810502418564306,
+        0.004816698133489246
+      ],
+      "final_displacement_m": 0.01638727069979226,
+      "max_displacement_m": 0.01641453544796301,
+      "abs_yaw_change_deg": 16.105399110289195,
+      "mean_tilt_deg": 0.628311899807662,
+      "max_tilt_deg": 1.6051495029693301,
+      "startup_displacement_m": 0.004751601863219037
+    },
+    {
+      "seed": 456,
+      "case": "forward",
+      "seconds_requested": 60.0,
+      "first_failure_s": null,
+      "survived": true,
+      "mean_velocity": [
+        0.44856749453521844,
+        0.020532822224920252,
+        0.0024437673919229263
+      ],
+      "mae": [
+        0.05143250546478143,
+        0.03834019456834483,
+        0.07048022755996881
+      ],
+      "final_displacement_m": 25.98446500684471,
+      "max_displacement_m": 25.98446500684471,
+      "abs_yaw_change_deg": 0.5886162684263652,
+      "mean_tilt_deg": 1.1340310823880833,
+      "max_tilt_deg": 2.558237979061463,
+      "startup_displacement_m": 0.76874169040792
+    },
+    {
+      "seed": 456,
+      "case": "lateral",
+      "seconds_requested": 60.0,
+      "first_failure_s": null,
+      "survived": true,
+      "mean_velocity": [
+        0.023478429590532337,
+        0.2582285072732038,
+        -0.0041558886867367716
+      ],
+      "mae": [
+        0.024092498071791087,
+        0.033085719385330434,
+        0.04829772589067214
+      ],
+      "final_displacement_m": 15.03203186112897,
+      "max_displacement_m": 15.03203186112897,
+      "abs_yaw_change_deg": 0.5746680248393488,
+      "mean_tilt_deg": 1.047952703308497,
+      "max_tilt_deg": 2.671561744950939,
+      "startup_displacement_m": 0.3822611547312404
+    },
+    {
+      "seed": 456,
+      "case": "turn",
+      "seconds_requested": 60.0,
+      "first_failure_s": null,
+      "survived": true,
+      "mean_velocity": [
+        0.016772210579631328,
+        -0.012411874285899547,
+        0.49746106188735234
+      ],
+      "mae": [
+        0.01864001588904946,
+        0.026191478017315892,
+        0.0533803606289682
+      ],
+      "final_displacement_m": 0.07426955044191821,
+      "max_displacement_m": 0.08296983781880828,
+      "abs_yaw_change_deg": 1673.3144888912348,
+      "mean_tilt_deg": 0.8545190953135691,
+      "max_tilt_deg": 2.0935512652667576,
+      "startup_displacement_m": 0.03498918955588321
+    },
+    {
+      "seed": 456,
+      "case": "transitions",
+      "seconds_requested": 70.0,
+      "first_failure_s": null,
+      "survived": true,
+      "mean_velocity": [
+        0.07348110165977263,
+        0.03765896051196063,
+        0.0847991511773505
+      ],
+      "mae": [
+        0.02068810277561135,
+        0.02015024954596848,
+        0.03824371302106258
+      ],
+      "final_displacement_m": 4.742715698278309,
+      "max_displacement_m": 4.822060419173783,
+      "abs_yaw_change_deg": 334.3967701576466,
+      "mean_tilt_deg": 0.9656706405287805,
+      "max_tilt_deg": 6.905813709635221,
+      "startup_displacement_m": 0.004751601863219037
+    },
+    {
+      "seed": 789,
+      "case": "stand",
+      "seconds_requested": 60.0,
+      "first_failure_s": null,
+      "survived": true,
+      "mean_velocity": [
+        -0.00022611848101667336,
+        0.00015925339935607063,
+        0.004819451102287348
+      ],
+      "mae": [
+        0.0002578568364981366,
+        0.0002814746249828802,
+        0.004819451102287348
+      ],
+      "final_displacement_m": 0.016387706799947773,
+      "max_displacement_m": 0.01641493787933317,
+      "abs_yaw_change_deg": 16.114560845671885,
+      "mean_tilt_deg": 0.6283588634815388,
+      "max_tilt_deg": 1.6104394893746217,
+      "startup_displacement_m": 0.004763973198213245
+    },
+    {
+      "seed": 789,
+      "case": "forward",
+      "seconds_requested": 60.0,
+      "first_failure_s": null,
+      "survived": true,
+      "mean_velocity": [
+        0.44855491747436804,
+        0.02050491858807506,
+        0.0025641601187540164
+      ],
+      "mae": [
+        0.051445082525632575,
+        0.03822402869512934,
+        0.0703699794831052
+      ],
+      "final_displacement_m": 25.98357340077264,
+      "max_displacement_m": 25.98357340077264,
+      "abs_yaw_change_deg": 0.47057570463533455,
+      "mean_tilt_deg": 1.136327643964836,
+      "max_tilt_deg": 2.558329108026783,
+      "startup_displacement_m": 0.7683959780209643
+    },
+    {
+      "seed": 789,
+      "case": "lateral",
+      "seconds_requested": 60.0,
+      "first_failure_s": null,
+      "survived": true,
+      "mean_velocity": [
+        0.023247920599460403,
+        0.25736121620472974,
+        -0.004448394825649351
+      ],
+      "mae": [
+        0.0239096636311729,
+        0.033009157626755554,
+        0.04830120993213301
+      ],
+      "final_displacement_m": 14.980630487977509,
+      "max_displacement_m": 14.980630487977509,
+      "abs_yaw_change_deg": 0.554343397620719,
+      "mean_tilt_deg": 1.041977567580082,
+      "max_tilt_deg": 2.6645684981008637,
+      "startup_displacement_m": 0.3813540494049654
+    },
+    {
+      "seed": 789,
+      "case": "turn",
+      "seconds_requested": 60.0,
+      "first_failure_s": null,
+      "survived": true,
+      "mean_velocity": [
+        0.01673091502058331,
+        -0.012452367011103211,
+        0.49718821934955304
+      ],
+      "mae": [
+        0.018608706863253457,
+        0.026183613999296834,
+        0.053435141834710036
+      ],
+      "final_displacement_m": 0.07479868392643542,
+      "max_displacement_m": 0.08277642622250138,
+      "abs_yaw_change_deg": 1672.2728127817013,
+      "mean_tilt_deg": 0.8569120481771811,
+      "max_tilt_deg": 2.0944901774003735,
+      "startup_displacement_m": 0.035009717065854346
+    },
+    {
+      "seed": 789,
+      "case": "transitions",
+      "seconds_requested": 70.0,
+      "first_failure_s": null,
+      "survived": true,
+      "mean_velocity": [
+        0.07333562213064246,
+        0.03785541473657812,
+        0.08498683647347648
+      ],
+      "mae": [
+        0.020555076561459686,
+        0.02013247205241691,
+        0.038456364424828644
+      ],
+      "final_displacement_m": 4.732731929899321,
+      "max_displacement_m": 4.812040647161502,
+      "abs_yaw_change_deg": 334.61389440964473,
+      "mean_tilt_deg": 0.9643877156542411,
+      "max_tilt_deg": 6.926170167271898,
+      "startup_displacement_m": 0.004763973198213245
+    }
+  ],
+  "joint_armature": 0.01,
+  "perturbations": {
+    "friction": 1.0,
+    "gain_scale": 1.0,
+    "mass_scale": 1.0,
+    "actuator_delay_s": 0.0,
+    "sensor_noise": false
+  }
+}

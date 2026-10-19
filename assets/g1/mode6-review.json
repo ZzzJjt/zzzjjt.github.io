@@ -1,0 +1,44 @@
+{
+  "status": "offline_candidate_only",
+  "physical_deployment_ready": false,
+  "policy": "mode6/candidates/v2_model599.onnx",
+  "checkpoint": "training/2026-10-15_15-24-40_mode6_interval_v2/model_599.pt",
+  "actor_sha256": "e70c421857652693ea094bd0f777a16541dd1534f92268a3c3db794568931fd7",
+  "source_sha256": {
+    "mode6_env.py": "eb38e001894b1cd40e4dc65afc88c94a2560bee48cc132624387f1f621ae7b1d",
+    "train_mode6.py": "692d21a7b089c244f767a9aa4a8834fd5ec78b23faf2a2bbaf01e388d9fdc049",
+    "g1_interface.py": "c91970bbe187e122f1f759f061e2ef95cb1b459c0518248bdf0f1f70259e02fe",
+    "evaluate_mode6_isaac.py": "1bd00f0681006077e589936031b274b8ba877f864d082894f0e8693bf45fc8be",
+    "evaluate_mode6_mujoco.py": "9d14754214acbbe126deb0ace28295844e511a9e075ca0dbf24d1b14bff3e5b7",
+    "export_mode6_actor.py": "8df5e90dfc5522c807d3fbee173ec34f454a7ae667948f39f43f0cac9d988a9c",
+    "play_mode6.py": "c827238d3d797bfc1e5d48b5384d8ad96267de29f8b134de07fb330ff685a2d0",
+    "validate_mode6_contract.py": "094067b44d818990db9563a0fff61ae6a6f1aaf514e58e517e38e56562370a54",
+    "build_mode6_contract.py": "6b47044e04feb3b9c9e8fe0db57aabf65d75187895bf041ed3eae0f195f59f42",
+    "adapt_reference_policy.py": "dbb44f8e7da77e847755362f5a2d05a753f7a29459a021a92d350f9af222f86c"
+  },
+  "evaluations": {
+    "isaac_nominal": {
+      "path": "evaluation/isaac_v2_599_nominal/2026-10-15_15-24-40_mode6_interval_v2_model_599/summary.json",
+      "survivors": 80,
+      "trials": 80
+    },
+    "mujoco_nominal": {
+      "path": "evaluation/v2_model599_mujoco_nominal/summary.json",
+      "survivors": 15,
+      "trials": 15
+    },
+    "mujoco_combined_stress": {
+      "path": "evaluation/v2_model599_mujoco_stress/summary.json",
+      "survivors": 5,
+      "trials": 15
+    }
+  },
+  "pending": [
+    "Verify physical joint directions, default posture and limits",
+    "Confirm physical hand configuration and pose",
+    "Confirm hardware PD gains, IMU mounting frame and low-level timing",
+    "Resolve stand yaw drift in MuJoCo and dynamics robustness failures",
+    "Learn factory operation and establish onsite protection before motor testing"
+  ],
+  "real_motor_commands_sent": false
+}

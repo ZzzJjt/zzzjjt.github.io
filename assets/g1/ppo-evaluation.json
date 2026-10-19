@@ -1,0 +1,175 @@
+{
+  "checkpoint": "IsaacLab/logs/rsl_rl/g1_four_skills/2026-10-13_19-24-56_balanced_finetune_v1/model_499.pt",
+  "sha256": "a551821496094213306b756fd9db72879f4c4cbf87281baa658d3968a398f9a7",
+  "heading_hold": true,
+  "heading_gain": 1.5,
+  "heading_command_limit_radps": 0.35,
+  "selected_iteration": 499,
+  "evaluation_seeds": [
+    123,
+    456,
+    789
+  ],
+  "seconds_per_case": 60,
+  "transition_test_seconds": 70,
+  "all_checks_passed": true,
+  "results": {
+    "stand": {
+      "survivors": 96,
+      "evaluated": 96,
+      "falls": 0,
+      "mean_velocity": [
+        -0.00012148918904131278,
+        0.006727106714000304,
+        0.003916271651784579
+      ],
+      "mae": [
+        0.00018821343112635262,
+        0.006727162099094799,
+        0.0039162790571229365
+      ],
+      "survivor_final_displacement_m": {
+        "mean": 0.0024555951046446958,
+        "max": 0.0029899391811341047
+      },
+      "survivor_max_displacement_m": {
+        "mean": 0.002464469444627563,
+        "max": 0.0029926670249551535
+      },
+      "survivor_abs_yaw_change_deg": {
+        "mean": 0.26117466886838275,
+        "max": 0.28449785709381104
+      },
+      "base_tilt_deg": {
+        "mean": 8.8464568456014,
+        "max": 9.050975799560547
+      }
+    },
+    "forward": {
+      "survivors": 96,
+      "evaluated": 96,
+      "falls": 0,
+      "mean_velocity": [
+        0.5392304062843323,
+        -0.02254173345863819,
+        0.01114472591628631
+      ],
+      "mae": [
+        0.03936794047051206,
+        0.02843972947088121,
+        0.05955731292249002
+      ],
+      "survivor_final_displacement_m": {
+        "mean": 31.085432052612305,
+        "max": 31.181137084960938
+      },
+      "survivor_max_displacement_m": {
+        "mean": 31.085432052612305,
+        "max": 31.181137084960938
+      },
+      "survivor_abs_yaw_change_deg": {
+        "mean": 0.2639264017343521,
+        "max": 0.809718906879425
+      },
+      "base_tilt_deg": {
+        "mean": 6.606198310852051,
+        "max": 7.979466438293457
+      }
+    },
+    "lateral": {
+      "survivors": 96,
+      "evaluated": 96,
+      "falls": 0,
+      "mean_velocity": [
+        -0.03666908542315165,
+        0.24147217472394308,
+        -0.0015098855753118794
+      ],
+      "mae": [
+        0.03681928841575414,
+        0.018726810446041155,
+        0.04234921268494094
+      ],
+      "survivor_final_displacement_m": {
+        "mean": 14.068198521931967,
+        "max": 14.13834285736084
+      },
+      "survivor_max_displacement_m": {
+        "mean": 14.068198521931967,
+        "max": 14.13834285736084
+      },
+      "survivor_abs_yaw_change_deg": {
+        "mean": 0.2656659682591756,
+        "max": 0.8562973737716675
+      },
+      "base_tilt_deg": {
+        "mean": 7.340792973836263,
+        "max": 7.925655364990234
+      }
+    },
+    "turn": {
+      "survivors": 96,
+      "evaluated": 96,
+      "falls": 0,
+      "mean_velocity": [
+        -0.004177369798223178,
+        0.021182396759589512,
+        0.5140442450841268
+      ],
+      "mae": [
+        0.016445340759771138,
+        0.026289973029056352,
+        0.040861189307901884
+      ],
+      "survivor_final_displacement_m": {
+        "mean": 0.07616088787714641,
+        "max": 0.11858679354190826
+      },
+      "survivor_max_displacement_m": {
+        "mean": 0.08881111691395442,
+        "max": 0.12203340232372284
+      },
+      "survivor_abs_yaw_change_deg": {
+        "mean": 1670.548095703125,
+        "max": 1765.890380859375
+      },
+      "base_tilt_deg": {
+        "mean": 6.858942985534668,
+        "max": 7.821723937988281
+      }
+    },
+    "transitions": {
+      "survivors": 96,
+      "evaluated": 96,
+      "falls": 0,
+      "mean_velocity": [
+        0.07015079756577809,
+        0.03704598670204481,
+        0.07530931880076726
+      ],
+      "mae": [
+        0.021427442648259885,
+        0.015502890964226787,
+        0.02683683341288946
+      ],
+      "survivor_final_displacement_m": {
+        "mean": 5.232813994089763,
+        "max": 5.301870822906494
+      },
+      "survivor_max_displacement_m": {
+        "mean": 5.340725580851237,
+        "max": 5.408836841583252
+      },
+      "survivor_abs_yaw_change_deg": {
+        "mean": 281.7384847005208,
+        "max": 296.74517822265625
+      },
+      "base_tilt_deg": {
+        "mean": 7.426070849100749,
+        "max": 11.307072639465332
+      }
+    }
+  },
+  "training_provenance": "IsaacLab/logs/rsl_rl/g1_four_skills/2026-10-13_19-24-56_balanced_finetune_v1/provenance.json",
+  "scope": "Four fixed simulation commands; PPO plus heading feedback for translation; not validated for hardware."
+}
